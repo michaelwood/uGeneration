@@ -1,0 +1,145 @@
+/* CSS Michael Wood 2010 */
+
+html,body {
+	margin: 0;
+	padding: 0;
+	background: #ededed;
+	font-family: arial, helvetica, verdana, tahoma, sans-serif;
+	text-align: center;  /* stupid IE bug fix */
+}
+
+a {
+	color:  #64a023;
+	font-weight: bold;
+}
+
+/* layout divs */
+
+#container {
+	width: 974px; 
+	margin: 0 auto;
+	border: 10px solid #ffffff;  
+	text-align: left; /* stupid IE bug fix */	
+}
+
+#headerblock {
+	float: top;
+	background: url(images/headerblock_bg.gif) repeat-x;
+	height: 200px; 
+	text-align: bottom;
+	position: relative;
+}
+
+#headerblock img {
+	float: middle;
+	margin: 50px 5px 0px 30px;
+	padding 0;
+}
+
+#loginarea {
+	margin: 100px 5px 0 0;
+	float: right;
+	text-align: right;
+	padding: 2px 0 0 0;
+
+}
+
+#menuarea {
+	float: top;
+	margin: 0px;
+	padding: 10px;
+	background-color: #64a023;
+	border-top: 2px solid #ffffff;
+	border-bottom: 2px solid #ffffff;
+
+}
+	
+#menuarea a {
+	padding-left: 4px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	text-decoration: none;
+}
+
+#headerblock  a, #menuarea a { 
+	text-decoration: underline;
+	color: #ffffff;
+	font-weight: bold;
+}
+
+#headerblock a:hover, #menuarea a:hover { 
+	text-decoration: none;
+	color: #bbf120;
+}
+
+
+
+#content {
+	/*width: 99%;*/
+	margin-left: 0.5em;
+	text-align: left;
+}
+
+#content label {
+	padding: 0.3em;
+}
+
+
+#content fieldset {
+	border: 0px;
+	width: 40em;
+	text-align: right;
+}
+
+#content table { 
+	border-collapse:collapse;
+}
+
+#content th {
+	background-color: #aedd0f;
+	color: #ffffff;
+}
+
+#content table,th,td {
+	border: 1px solid #64a023;
+	padding: 0.3em;
+	vertical-align: top;
+}
+
+#content .right { 
+	float: right;
+	margin-top: 0.5em;
+	padding-left: 1em;
+	text-align: right; 
+}
+
+#content .inner_table th {
+	background-color: #64a023;
+	border: 1px solid #aedd0f;
+}
+
+
+#footer {
+	float: bottom;
+	margin: 0px;
+	padding: 5px 0;
+	width: 100%;	
+	background-color:  #64a023;
+	text-align: center;
+}
+
+.error {
+	color: red;
+	font-weight: bold;
+}
+
+
+label { 
+	text-align: right;
+	padding-right: 0.2em;
+}
+
+.noborder td,tr {
+	border: 0px solid #ffffff;;
+}
+
